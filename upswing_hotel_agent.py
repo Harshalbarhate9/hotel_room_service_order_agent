@@ -11,7 +11,7 @@ from langchain_mongodb.chat_message_histories import MongoDBChatMessageHistory
 from langchain.memory import ConversationBufferMemory
 
 
-GOOGLE_API_KEY = "ABC"
+GOOGLE_API_KEY = "ABC" #dummy key
 MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "hotel_db"
 
@@ -205,4 +205,5 @@ def run_chat_session():
             print(f"Error: {e}")
 
 if __name__ == "__main__":
+
     run_chat_session()
